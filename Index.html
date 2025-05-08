@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#experience-icons">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- INTRO / HOME -->
+  <section id="home" class="intro">
+    <div class="profile-pic">
+      <img src="naitik2.jpg" alt="Profile Picture">
+    </div>
+    <h1>I do coding and make content <span>about it!</span></h1>
+    <p>I want to become a software engineer and content creator...</p>
+    <div class="buttons">
+      <button>Get in Touch</button>
+      <button>Download CV</button>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE ICONS / SKILLS -->
+  <section id="experience-icons" class="experience-icons">
+    <h3>Experience With</h3>
+    <div class="icons">
+      <img src="https://cdn-icons-png.freepik.com/256/919/919827.png?semt=ais_hybrid" alt="HTML5">
+      <img src="https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png" alt="CSS3">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSoW3g9hjXIasgon-kpzz-lD9z4SsalyPbZA&s" alt="React">
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <img src="https://cdn-icons-png.freepik.com/256/919/919827.png?semt=ais_hybrid" alt="HTML Tutorial">
+        <h3>Power of HTML</h3>
+        <p>HTML Tutorial</p>
+        <a href="https://www.w3schools.com/html/" target="_blank">Read more...</a>
+      </div>
+      <div class="project-card">
+        <img src="https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png" alt="CSS Magic">
+        <h3>Unlock CSS Magic</h3>
+        <p>CSS Tutorial</p>
+        <a href="https://www.w3schools.com/css/" target="_blank">Read more...</a>
+      </div>
+      <!-- add more .project-card as needed -->
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="experience">
+    <h2>Experience</h2>
+    <div class="experience-container">
+      <div class="experience-item">
+        <h3>Lead Software Engineer at Google</h3>
+        <p class="date">Oct 2020 - Present</p>
+        <p class="description">Led a team building scalable cloud architecture and modern web apps.</p>
+      </div>
+      <div class="experience-item">
+        <h3>Junior Software Engineer at Apple</h3>
+        <p class="date">Jan 2017 - Dec 2019</p>
+        <p class="description">Built modern iOS applications and collaborated on UI/UX improvements.</p>
+      </div>
+      <div class="experience-item">
+        <h3>Software Engineer at Meta</h3>
+        <p class="date">Jan 2015 - Oct 2017</p>
+        <p class="description">Developed web components and optimized front-end performance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / FOOTER -->
+  <footer id="contact">
+    <h2>Get in Touch</h2>
+    <p>If you’d like to chat about a project or just say hello, drop me a message!</p>
+    <div class="contact-container">
+
+      <!-- Contact Form -->
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" rows="5" placeholder="Type your message here" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Let's Connect</h3>
+        <p>Follow me on social media or drop me an email!</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/naitik-jain-5108b2307/" class="social-link" target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s" alt="LinkedIn">
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/Naitikjain29" class="social-link" target="_blank">
+            <img src="https://yt3.googleusercontent.com/PKRBxhCiGa8Y0vPmHa1E2cdjpLhUq2Pl-gESwP7kk2plGgxLdsbjyTd9VjcJwBMiY0HQ8bvx5Q=s900-c-k-c0x00ffffff-no-rj" alt="GitHub">
+            <span>GitHub</span>
+          </a>
+          <a href="https://x.com/NaitikJain2912" class="social-link" target="_blank">
+            <img src="https://pbs.twimg.com/profile_images/1683364031921356800/lC0xkPJZ_400x400.jpg" alt="Twitter">
+            <span>Twitter</span>
+          </a>
+        </div>
+        <p>Email: <a href="mailto:naitikj2912@gmail.com">naitikj2912@gmail.com</a></p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
